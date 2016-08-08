@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <ImageView
+        android:id="@+id/mimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/song_name"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_toEndOf="@+id/mimage"
+        android:layout_toRightOf="@+id/mimage"
+        android:layout_toLeftOf="@+id/mmenu"
+        android:layout_toStartOf="@+id/mmenu"
+        android:layout_alignParentTop="true"
+        android:singleLine="true" />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/author"
+        android:textSize="12sp"
+        android:textColor="#2b3e4b"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/mmenu"
+        android:layout_toStartOf="@+id/mmenu"
+        android:layout_toEndOf="@+id/mimage"
+        android:layout_toRightOf="@+id/mimage"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/mmenu"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/menu"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoMediaPlayer</string>
+    <string name="duration">Duration:</string>
+    <string name="content_type">Content Type:</string>
+    <string name="ok">Ok</string>
+    <string name="song">song</string>
+    <string name="_0_0">0:0</string>
+    <string name="author">Unknown Author</string>
+    <string name="song_name">Song Name</string>
+    <string name="_dots">..</string>
+    <string name="delete_items">Delete Items</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.home.demomediaplayer.Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"/>
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/currenttime"
+            android:gravity="center_vertical|left"
+            android:text="CurrentTime"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/totaltime"
+            android:gravity="center_vertical|right"
+            android:text="TotalTime"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/play"
+            android:text="Play"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/pic"
+            android:text="Set Image"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/stop"
+            android:text="Stop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
